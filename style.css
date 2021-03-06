@@ -1,34 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
-    box-sizing: border-box;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.about {
-    text-align: center;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 10%;
+  background: rgb(243, 255, 175);
 }
 
-.cv-information {
-    align-self: center;
-    width: 500px;
-    background-color: white;
-    border: solid black;
-    border-radius: 5px;
-    padding: 20px;
-    margin: auto;
-}
-
-.cv-information:hover {
-    border: solid black;
-    padding: 20;
-    margin: 50;
-    cursor: default;
-    box-shadow: 0 0 10px black;
+.main {
+  flex: 1 1 auto;
 }
 
 .my-photo {
-    border-radius: 50%;
+  width: 150px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer {
+  flex: 0 1 10%;
+  background: rgb(243, 255, 175);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
 }
