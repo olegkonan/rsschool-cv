@@ -7,37 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="about">
-        <h1>HTML, CSS & Git Basics</h1>
+    <header class="header">
+        <h1 class="title">HTML, CSS & Git Basics</h1>
     </header>
-    <main class="cv-information">
-        <section>
-            <img class="my-photo" src="src/photo.jpg" alt="my photo" height="200" width="200">  
+    <main class="main">
+      <div class="wrapper">
+        <img class="my-photo" src="src/photo.jpg" alt="my-photo" class="my-photo" importance="high">
+        <section class="keys">
+          <div><span>Name: </span><span>Oleg Konan</span></div>
+          <div><span>Contacts: </span><span>MTS: 297088502, telegram @createdCheese.</span></div>
+          <div><span>Information: </span><span>I’d like to learn Frontend, to develop my skills in JS.</span></div>
+          <div><span>Skills: </span><span>Basic HTML, CSS, JS, starting to learn Vue.js, a little PHP.</span></div>
+          <div><span>Code examples: </span><a href="https://create-scenario.web.app/">create-scenario.web.app</a>, <a href="https://olegkonan.github.io/serenade-script/">olegkonan.github.io/serenade-script</a>, <a href="https://olegkonan.github.io/translit/index.html">olegkonan.github.io/translit</a></div>
+          <div><span>Experience: </span><span>No experience</span></div>
+          <div><span>Education: </span><span>Online education on www.w3schools.com, learn.javascript.ru.</span></div>
+          <div><span>English level: <span>Pre-intermidiate.</span></div>
         </section>
-        <section class="name">
-            <p>Oleg Konan.</p>
-        </section>
-        <section class="contact">
-            <p>MTS: 297088502, telegram @createdCheese.</p>
-        </section>
-        <section class="information">
-            <p>I’d like to learn Frontend, to develop my skills in JS.</p>
-        </section>
-        <section class="skills">
-            <p>Basic HTML, CSS, JS, starting to learn Vue.js, a little PHP.</p>
-        </section>
-        <section class="code-examples">
-            <p>“github.com/olegkonan/smorgonSchedule”</p>
-        </section>
-        <section class="experience">
-            <p>No experience.</p>
-        </section>
-        <section class="education">
-            <p>Online education on www.w3schools.com, learn.javascript.ru.</p>
-        </section>
-        <section class="english-level">
-            <p>English level Pre-intermidiate.</p>
-        </section>
+      </div>
     </main>
+    <footer class="footer">
+      <a href="https://github.com/olegkonan">My Github</a>
+      <span>2021</span>
+      <a href="https://rs.school/js/"><img src="./src/rs_school_js.svg" alt="logo" class="logo"></a>
+    </footer>
 </body>
 </html>
